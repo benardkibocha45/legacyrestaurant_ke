@@ -1,11 +1,19 @@
 /********** Template CSS **********/
-:root {
-    --primary: #D4AF37;   
-    --light: #FFFFFF;   
-    --dark: #000000;      
-}
 
 
+ :root {
+            --primary: #e34308; 
+            --secondary: #D4A76A; /* Accent gold */
+            --dark: #3A2C1A; /* Dark brown */
+            --light: #FFF8F0; /* Cream */
+        }
+        
+        .btn-primary { 
+            background-color: var(--primary); 
+            border-color: var(--primary); 
+        }
+        .text-primary { color: var(--primary) !important; }
+        .bg-dark { background-color: var(--dark) !important; }
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
